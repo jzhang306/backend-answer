@@ -5,4 +5,4 @@ I used MySQL instead of H2 database, the structure and data building sql file is
 There is also a test gif below, using Postman to check API.
 ![image](https://github.com/user-attachments/assets/92de081f-9358-45ac-83cf-aa59dfe9d5f2)
 
-![demo](https://github.com/user-attachments/assets/b2a03b51-b2cf-42a7-b73f-403ab8f4ed8a)
+![demo](https://github.com/user-attachments/assets/a4986d89-ef44-4766-bbe6-c944023c2463)
