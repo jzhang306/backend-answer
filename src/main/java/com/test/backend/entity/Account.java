@@ -3,7 +3,6 @@ package com.test.backend.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
-
 @Entity
 @Data
 @Table(name = "account")
