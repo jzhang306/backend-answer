@@ -9,4 +9,4 @@ In the newest version hibernate, there is a bug so the hibernate core is exclude
 ### Here is the thing, and the extra logics I added:
 You cannot login when you have already login.<br>
 You cannot logout when you are not logged in. <br>
-![spring boot demo](https://github.com/user-attachments/assets/2275c83c-f865-4693-acf2-a92d8b094437)
+![spring boot](https://github.com/user-attachments/assets/7354e0c7-2f60-4847-a6c2-5caac0b8433b)
