@@ -5,5 +5,7 @@ I used MySQL instead of H2 database, the structure and data building sql file is
 There is also a test gif below, using Postman to check API.<br>
 In the newest version hibernate, there is a bug so the hibernate core is excluded (StackOverflow: https://stackoverflow.com/questions/79312305/springboot-database-jdbc-url-connecting-through-datasource-hikaridatasource-h). <br>
 ![image](https://github.com/user-attachments/assets/92de081f-9358-45ac-83cf-aa59dfe9d5f2)
-
-![demo](https://github.com/user-attachments/assets/a4986d89-ef44-4766-bbe6-c944023c2463)
+### Here is the thing, and the extra logics I added:
+You cannot login when you have already login.<br>
+You cannot logout when you are not logged in. <br>
+![springbootdemo](https://github.com/user-attachments/assets/6e9d65f7-5e2c-4e3c-abd0-3bd169f1a4b0)
