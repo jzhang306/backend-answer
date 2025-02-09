@@ -1,7 +1,6 @@
 package com.test.backend.config;
 import com.test.backend.RestBean;
 import com.test.backend.filter.LoginFilter;
-import com.test.backend.service.AccountService;
 import jakarta.annotation.Resource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,8 +14,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 public class SecurityConfig {
-    @Resource
-    private AccountService accountService;
 
     @Resource
     private LoginFilter loginFilter;
@@ -61,7 +58,6 @@ public class SecurityConfig {
                             response.getWriter().write(new RestBean(401,"Authorization failed").asJsonString());
                         }))
                 .addFilterBefore(loginFilter, UsernamePasswordAuthenticationFilter.class)
-                .userDetailsService(accountService)
                 .csrf(AbstractHttpConfigurer::disable)
                 .build();
     }
